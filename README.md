@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm a FullStack Developer, this repository is about improving and practicing my knowledge about NodeJS in more depth, I already have experience in software development.
+I'm a FullStack Developer, this repository is about improving and practicing my knowledge about NodeJS in more depth with a FullStack Developer Codecademy's Course, I already have experience in software development.
 
 
 ## 🌐 Socials:
