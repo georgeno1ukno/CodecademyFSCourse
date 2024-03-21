@@ -21,5 +21,19 @@ const randomPhrases = [
     "How do you organize a space party? You planet!"
   ];
 
+const emojiArt=['(^_^)', '(^^ゞ','(^_^;)','(-_-;)','(~_~;)','(・。・;)','(・_・;)','(・・;)','^^','^_^;','(#^.^#)','(^ ^;)'];
+
+  const messageGeneratorFunction = (namePlayer) =>{
+
+    const randomNumber = Math.floor(Math.random()*randomPhrases.length);
+    const emojiArt1 = Math.floor(Math.random()*emojiArt.length);
+    const emojiArt2 = Math.floor(Math.random()*emojiArt.length);
+
+    return `Hi ${namePlayer} ${emojiArt[emojiArt1]}, You're in Message Generator Codecademy; ${randomPhrases[randomNumber]}. ${emojiArt[emojiArt2]}!!`;
+  };
+
+  console.log(messageGeneratorFunction('Jorge'));
+
+
 
   
